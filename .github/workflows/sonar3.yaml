@@ -47,7 +47,7 @@ jobs:
       uses: SonarSource/sonarcloud-github-action@v1.5
       with:
         args: >
-          -Dsonar.projectKey=kavitha980
+          -Dsonar.projectKey=githubaction
           -Dsonar.organization=Kavitha980
           -Dsonar.host.url=https://sonarcloud.io
           -Dsonar.login=${{ secrets.SONAR_TOKEN }}
